@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<meta name="Description" content="Contacter la chouette agence avec un brief de votre projet.">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 	<title>contact</title>
 
@@ -43,7 +43,7 @@
 		<!-- bloc-0 END -->
 
 		<!-- bloc-6 -->
-		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+		<div class="bloc bg-banniere bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
@@ -70,26 +70,27 @@
 							<div class="form-group">
 								<label>
 									Nom
-								</label>
-								<input id="name" class="form-control" required />
+									<input id="name" class="form-control" required />
+							</label>
 							</div>
 							<div class="form-group">
 								<label>
 									Adresse email
-								</label>
-								<input id="email" class="form-control" type="email" required />
+									<input id="email" class="form-control" type="email" required />
+							</label>
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
+									<input class="form-control" type="email" required id="input_504" />
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
+								<textarea id="message" class="form-control" rows="4" cols="50"
 									required></textarea>
+								</label>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
@@ -97,17 +98,17 @@
 							</button>
 						</form>
 					</div>
-					<div class="col-sm-6">
-						<p>
-							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
-							au vendredi<br>
-						</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
 		<!-- bloc-7 END -->
-
+		<div class="col-sm-6">
+			<p>
+				contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
+				au vendredi<br>
+			</p>
+		</div>
 		<!-- ScrollToTop Button -->
 		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
 				class="fa fa-chevron-up"></span></a>
@@ -125,22 +126,25 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="https://twitter.com/?lang=fr"><span
+											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="https://fr-fr.facebook.com"><span
+											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="https://dribbble.com"><span
+											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span
+									<a class="social" href="https://www.instagram.com/?hl=fr"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
@@ -153,10 +157,9 @@
 
 	</div>
 	<!-- Principal conteneur END -->
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
 	<script src="./js/formHandler.js"></script>
 
 </body>
