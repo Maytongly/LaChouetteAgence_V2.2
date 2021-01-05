@@ -36,12 +36,6 @@ form div{
 
 }
 
-/*.text-webkit{
-        background:-webkit-linear-gradient(#E44251, #E2764B, #E8B74C);
-        background-clip:text;
-        -webkit-background-clip:text;
-        color:transparent;
-}*/
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
