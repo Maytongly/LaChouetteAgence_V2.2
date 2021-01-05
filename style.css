@@ -30,10 +30,12 @@ form div{
     flex-direction: column;
     width: 50%;
 }
-footer{
+.contact footer{
     display: flex;
     justify-content: center;
+
 }
+
 /*.text-webkit{
         background:-webkit-linear-gradient(#E44251, #E2764B, #E8B74C);
         background-clip:text;
@@ -648,9 +650,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
@@ -710,8 +709,8 @@ p {
     max-width: 400px;
     margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -720,7 +719,7 @@ h2 {
     line-height: 1.4em;
 }
 
-.icon h2 {
+.icon h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
