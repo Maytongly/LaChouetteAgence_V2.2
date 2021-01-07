@@ -30,21 +30,6 @@ a:hover {
     cursor: pointer;
 }
 
-form div {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.contact footer {
-    display: flex;
-    justify-content: center;
-
-}
-
-footer p{
-    text-align: center;
-}
 .link {
     font-size: 12px;
 }
@@ -685,10 +670,6 @@ a {
 .container {
     max-width: 1000px;
     margin: auto;
-}
-
-.hero-bloc-text {
-    font-size: 38px;
 }
 
 .hero-bloc-text-sub {
