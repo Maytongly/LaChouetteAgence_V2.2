@@ -687,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -710,14 +710,13 @@ p {
 }
 
 .social {
-    width: 400px;
+    max-width: 400px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     text-decoration: none;
 }
-
 
 h2 {
     font-size: 22px;
@@ -755,7 +754,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto auto 24px auto;
 }
 
 .portfolio-row {
